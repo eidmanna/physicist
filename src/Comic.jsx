@@ -4,9 +4,13 @@ import Scene from './humaaans/Scene';
 import ThoughtBubble from './ThoughtBubble';
 import SpeechBubble from './SpeechBubble';
 
-// Dynamischer Import der Story basierend auf Umgebungsvariable
+// Statischer Import der Story - Vite kann nur statische Imports bundlen
+import consciousnessStory from './stories/consciousness-mystery.json';
+import godPhysicsStory from './stories/god-and-physics.json';
+
+// Story-Auswahl basierend auf Umgebungsvariable
 const storyPath = import.meta.env.VITE_STORY_PATH || 'stories/consciousness-mystery.json';
-const storyData = await import(/* @vite-ignore */ `./${storyPath}`).then(module => module.default);
+const storyData = storyPath.includes('god-and-physics') ? godPhysicsStory : consciousnessStory;
 
 const HumaanCharacter = ({ character, posture = 'standing', direction = 'right', size = 200, className = '' }) => {
   return (
