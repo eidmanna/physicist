@@ -1,7 +1,7 @@
 /* Comic Container and Layout */
 .comic-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 75%, #4facfe 100%);
+  background: linear-gradient(135deg, #E9D5DA 0%, #B8A9C9 25%, #C5DEDD 50%, #A8D5E2 75%, #F9A8D4 100%);
   padding: 3rem 2rem;
   font-family: 'Space Mono', monospace;
 }
@@ -166,6 +166,7 @@
 
 .speech-container.right .speech-bubble::after {
   right: 2rem;
+}
 
 /* Scene Background */
 .scene-background {
@@ -183,7 +184,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
 }
 
 /* Characters Container */
