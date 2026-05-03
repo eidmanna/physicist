@@ -75,6 +75,7 @@
 /* Speech Bubbles */
 .speech-container {
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .speech-container.left {
@@ -193,7 +194,7 @@
   z-index: 2;
   align-items: flex-end;
   gap: 1.5rem;
-  margin-top: 2rem;
+  margin-top: -3rem;
   min-height: 200px;
 }
 

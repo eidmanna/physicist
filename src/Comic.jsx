@@ -2,6 +2,7 @@ import './Comic.css';
 import Human from './humaaans/Human';
 import Scene from './humaaans/Scene';
 import ThoughtBubble from './ThoughtBubble';
+import SpeechBubble from './SpeechBubble';
 
 // Zwei konsistente Charaktere mit festen Eigenschaften
 // Diese Eigenschaften bleiben in allen Frames gleich
@@ -46,7 +47,8 @@ export default function Comic() {
       posture2: 'standing',
       direction1: 'right',
       direction2: 'left',
-      gap: '-20px', // Negative Werte erlauben Überlappung
+      gap: '-20px',
+      bubbleType: 'speech', // 'speech' oder 'thought'
       speech1: 'Was ist\nBewusstsein?',
       speech2: null,
       position: 'left',
@@ -58,6 +60,7 @@ export default function Comic() {
       direction1: 'right',
       direction2: 'left',
       gap: '0px',
+      bubbleType: 'thought',
       speech1: null,
       speech2: 'Eine interessante\nFrage!',
       position: 'right',
@@ -123,14 +126,26 @@ export default function Comic() {
 
               <div className={`speech-container ${frame.position}`}>
                 {frame.speech1 && (
-                  <ThoughtBubble position={frame.position}>
-                    {frame.speech1}
-                  </ThoughtBubble>
+                  frame.bubbleType === 'thought' ? (
+                    <ThoughtBubble position={frame.position}>
+                      {frame.speech1}
+                    </ThoughtBubble>
+                  ) : (
+                    <SpeechBubble position={frame.position}>
+                      {frame.speech1}
+                    </SpeechBubble>
+                  )
                 )}
                 {frame.speech2 && (
-                  <ThoughtBubble position={frame.position}>
-                    {frame.speech2}
-                  </ThoughtBubble>
+                  frame.bubbleType === 'thought' ? (
+                    <ThoughtBubble position={frame.position}>
+                      {frame.speech2}
+                    </ThoughtBubble>
+                  ) : (
+                    <SpeechBubble position={frame.position}>
+                      {frame.speech2}
+                    </SpeechBubble>
+                  )
                 )}
               </div>
 

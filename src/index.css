@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 :root {
   --text: #333;
   --text-h: #000;
   --bg: #fff;
   --sans: system-ui, 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+  --comic: 'Bangers', 'Comic Sans MS', 'Comic Sans', cursive;
 
   font: 16px/1.5 var(--sans);
   color-scheme: light dark;
@@ -25,10 +28,6 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   box-sizing: border-box;
-}
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
 }
 
 code {

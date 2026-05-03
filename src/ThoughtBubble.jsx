@@ -9,8 +9,8 @@ const ThoughtBubble = ({ children, position = 'left' }) => {
     if (textRef.current) {
       const rect = textRef.current.getBoundingClientRect();
       setDimensions({
-        width: Math.max(200, rect.width + 80),
-        height: Math.max(100, rect.height + 60)
+        width: Math.max(130, rect.width + 20),
+        height: Math.max(60, rect.height + 15)
       });
     }
   }, [children]);
@@ -28,11 +28,11 @@ const ThoughtBubble = ({ children, position = 'left' }) => {
   const bubble2Y = height + 40;
 
   return (
-    <div style={{ position: 'relative', display: 'inline-block' }}>
+    <div style={{ position: 'relative', display: 'inline-block', width, height: height + 50 }}>
       <svg
         width={width}
         height={height + 50}
-        style={{ position: 'absolute', top: -10, left: -10, pointerEvents: 'none' }}
+        style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none' }}
         viewBox={`0 0 ${width} ${height + 50}`}
       >
         {/* Hauptwolke - skaliert basierend auf dem Original-SVG */}
@@ -69,14 +69,24 @@ const ThoughtBubble = ({ children, position = 'left' }) => {
       <div
         ref={textRef}
         style={{
-          position: 'relative',
-          padding: '2rem 2.5rem',
+          position: 'absolute',
+          top: '-10%',
+          left: 0,
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '0.8rem',
           color: '#333',
           fontSize: '1.1rem',
-          fontWeight: 500,
+          fontFamily: "'Bangers', 'Comic Sans MS', 'Comic Sans', cursive",
+          fontWeight: 400,
           lineHeight: 1.4,
           zIndex: 1,
-          whiteSpace: 'pre-line'
+          whiteSpace: 'pre-line',
+          textAlign: 'center',
+          boxSizing: 'border-box'
         }}
       >
         {children}
