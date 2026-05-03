@@ -25,13 +25,17 @@ git branch -M main
 git push -u origin main
 ```
 
-### 2. GitHub Pages aktivieren
+### 2. GitHub Pages aktivieren (WICHTIG!)
+
+**Du MUSST GitHub Pages manuell aktivieren, bevor der Workflow funktioniert:**
 
 1. Gehe zu deinem Repository auf GitHub
 2. Klicke auf **Settings** (Einstellungen)
 3. Klicke im linken Menü auf **Pages**
-4. Unter **Source** wähle **GitHub Actions**
-5. Speichern (wird automatisch gespeichert)
+4. Unter **Build and deployment** → **Source** wähle **GitHub Actions**
+5. Die Seite speichert automatisch
+
+**Ohne diesen Schritt wird der Workflow mit "Resource not accessible" Fehler fehlschlagen!**
 
 ### 3. Deployment starten
 
