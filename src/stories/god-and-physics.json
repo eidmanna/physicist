@@ -111,7 +111,7 @@
       "direction2": "right",
       "gap": "-70px",
       "bubbleType": "speech",
-      "speech1": "Hab ich doch gesagt! Gott existiert nicht!",
+      "speech1": "Hab ich doch gesagt!\nGott existiert nicht!",
       "speech2": null,
       "position": "left",
       "scene": "Whiteboard"
