@@ -1,6 +1,6 @@
 
 
-const SvgSweatpants = props => (
+const SvgSweatpants = ({ color1 = "#69A1AC", color2 = "#89C5CC", ...props }) => (
     <g
       id="Bottom/Standing/Sweatpants"
       stroke="none"
@@ -21,12 +21,12 @@ const SvgSweatpants = props => (
       <path
         d="M127.213639,1.13686838e-13 C136.741891,43.4350253 153.221683,112.768359 176.653017,208 L201.946059,208 C203.814239,110.253828 195.86709,45.9204947 182.104613,1.13686838e-13 L127.213639,1.13686838e-13 Z"
         id="Pant"
-        fill="#69A1AC"
+        fill={color1}
       />
       <path
         d="M111.409919,0 C113.913164,65.5742244 107.425844,130.177256 87.3305078,209.020958 L114.316793,209.020958 C143.678541,143.017859 164.723052,78.7336205 179.105577,0 L111.409919,0 Z"
         id="Pant"
-        fill="#89C5CC"
+        fill={color2}
       />
       <g
         id="Accessories/Shoe/Flat-Simple"
