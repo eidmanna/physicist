@@ -21,11 +21,11 @@ const ThoughtBubble = ({ children, position = 'left' }) => {
   const scaleX = width / 111;
   const scaleY = height / 95;
   
-  // Position der Gedankenblasen - noch näher zur Mitte
-  const bubble1X = position === 'left' ? width * 0.4 : width * 0.6;
-  const bubble1Y = height + 20;
-  const bubble2X = position === 'left' ? width * 0.3 : width * 0.7;
-  const bubble2Y = height + 40;
+  // Position der Gedankenblasen - großer Kreis näher zur Mitte, kleiner Kreis weiter außen
+  const bubble1X = position === 'left' ? width * 0.5 : width * 0.5;
+  const bubble1Y = height + 5;
+  const bubble2X = position === 'left' ? width * 0.4 : width * 0.6;
+  const bubble2Y = height + 15;
 
   return (
     <div style={{ position: 'relative', display: 'inline-block', width, height: height + 50 }}>
@@ -51,7 +51,7 @@ const ThoughtBubble = ({ children, position = 'left' }) => {
         <circle
           cx={bubble1X}
           cy={bubble1Y}
-          r="12"
+          r="8"
           fill="white"
           stroke="#667eea"
           strokeWidth="2"
@@ -59,7 +59,7 @@ const ThoughtBubble = ({ children, position = 'left' }) => {
         <circle
           cx={bubble2X}
           cy={bubble2Y}
-          r="7"
+          r="5"
           fill="white"
           stroke="#667eea"
           strokeWidth="2"
