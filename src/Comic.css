@@ -88,7 +88,7 @@
 .speech-bubble {
   display: inline-block;
   background: white;
-  border-radius: 2rem;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   padding: 1.5rem 2rem;
   color: #333;
   font-size: 1.1rem;
@@ -98,7 +98,16 @@
   line-height: 1.4;
   position: relative;
   border: 3px solid #667eea;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    -15px -15px 0 -10px white,
+    -15px -15px 0 -7px #667eea,
+    15px -15px 0 -10px white,
+    15px -15px 0 -7px #667eea,
+    -15px 15px 0 -10px white,
+    -15px 15px 0 -7px #667eea,
+    15px 15px 0 -10px white,
+    15px 15px 0 -7px #667eea,
+    0 4px 15px rgba(0, 0, 0, 0.1);
   animation: popIn 0.3s ease-out;
 }
 
@@ -113,25 +122,45 @@
   }
 }
 
+/* Gedankenblasen - kleine Kreise */
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 3px solid #667eea;
+  border-radius: 50%;
+  bottom: -35px;
+  z-index: 1;
+}
+
 .speech-bubble::after {
   content: '';
   position: absolute;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  bottom: -12px;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 3px solid #667eea;
+  border-radius: 50%;
+  bottom: -55px;
+  z-index: 1;
+}
+
+.speech-container.left .speech-bubble::before {
+  left: 2.5rem;
 }
 
 .speech-container.left .speech-bubble::after {
-  left: 1.5rem;
-  border-width: 10px 10px 0 0;
-  border-color: #667eea transparent transparent transparent;
+  left: 2rem;
+}
+
+.speech-container.right .speech-bubble::before {
+  right: 2.5rem;
 }
 
 .speech-container.right .speech-bubble::after {
-  right: 1.5rem;
-  border-width: 10px 0 0 10px;
-  border-color: #667eea transparent transparent transparent;
+  right: 2rem;
 
 /* Scene Background */
 .scene-background {
