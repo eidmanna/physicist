@@ -118,3 +118,20 @@ npm run build
 git add .
 git commit -m "Switch to different story"
 git push
+
+### Für lokale Entwicklung:
+
+Ändere die `.env` Datei lokal.
+
+### Für GitHub Pages Deployment:
+
+Ändere die Story in `.github/workflows/deploy.yml`:
+
+```yaml
+- name: Create .env file
+  run: echo "VITE_STORY_PATH=stories/consciousness-mystery.json" > .env
+  # oder
+  run: echo "VITE_STORY_PATH=stories/god-and-physics.json" > .env
+```
+
+**Hinweis:** Die `.env` Datei ist in `.gitignore` und wird nicht zu GitHub gepusht. Deshalb muss die Story-Auswahl im Workflow konfiguriert werden.
