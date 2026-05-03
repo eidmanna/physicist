@@ -27,7 +27,7 @@
       "direction2": "right",
       "gap": "-90px",
       "bubbleType": "speech",
-      "speech1": "Die Wissenschaft\nhat Gott\nüberflüssig gemacht!",
+      "speech1": "Die moderne Wissenschaft hat Gott überflüssig gemacht!",
       "speech2": null,
       "position": "left",
       "scene": "Wireframe"
@@ -100,7 +100,7 @@
       "gap": "-70px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Gott kann nicht\nwie ein Handy\nexistieren.",
+      "speech2": "Gott existiert sicher nicht so wie z.B. dein Handy.",
       "position": "right",
       "scene": "Whiteboard"
     },
@@ -111,7 +111,7 @@
       "direction2": "right",
       "gap": "-70px",
       "bubbleType": "speech",
-      "speech1": "Hab ich doch\ngesagt!",
+      "speech1": "Hab ich doch gesagt! Gott existiert nicht!",
       "speech2": null,
       "position": "left",
       "scene": "Whiteboard"
@@ -147,7 +147,7 @@
       "direction2": "left",
       "gap": "0px",
       "bubbleType": "speech",
-      "speech1": "Gott ist nicht messbar.",
+      "speech1": "Gott ist aber nicht messbar.",
       "speech2": null,
       "position": "right",
       "scene": "Whiteboard"
@@ -160,7 +160,7 @@
       "gap": "0px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "... und Liebe, Trauer, Sinn...\nsind nicht messbar.",
+      "speech2": "... und Liebe, Trauer, Sinn...\nsind auch nicht messbar.",
       "position": "right",
       "scene": "Whiteboard"
     },
@@ -351,7 +351,7 @@
       "direction2": "left",
       "gap": "-30px",
       "bubbleType": "speech",
-      "speech1": "Aber woher diese\nGewissheit?",
+      "speech1": "Aber woher soll diese\nGewissheit kommen?",
       "speech2": null,
       "position": "left",
       "scene": "Home"
