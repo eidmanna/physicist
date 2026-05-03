@@ -30,7 +30,7 @@
       "speech1": "Die Wissenschaft\nhat Gott\nüberflüssig gemacht!",
       "speech2": null,
       "position": "left",
-      "scene": "Home"
+      "scene": "Wireframe"
     },
     {
       "posture1": "standing",
@@ -42,38 +42,38 @@
       "speech1": null,
       "speech2": "Wirklich?",
       "position": "right",
-      "scene": "Home"
+      "scene": "Wireframe"
     },
     {
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
       "direction2": "left",
-      "gap": "-20px",
+      "gap": "0px",
       "bubbleType": "speech",
       "speech1": "Gott ist nur ein Märchen und existiert nicht!",
       "speech2": null,
       "position": "left",
-      "scene": "Whiteboard"
+      "scene": "Wireframe"
     },
     {
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
       "direction2": "left",
-      "gap": "-20px",
+      "gap": "0px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "Was meinst du\nmit 'existieren'?",
       "position": "right",
-      "scene": "Whiteboard"
+      "scene": "Wireframe"
     },
     {
-      "posture1": "sitting",
-      "posture2": "sitting",
+      "posture1": "standing",
+      "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "30px",
+      "direction2": "right",
+      "gap": "-60px",
       "bubbleType": "thought",
       "speech1": "Was für eine\nseltsame Frage...",
       "speech2": null,
@@ -81,179 +81,179 @@
       "scene": "Whiteboard"
     },
     {
-      "posture1": "sitting",
-      "posture2": "sitting",
+      "posture1": "standing",
+      "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "30px",
+      "direction2": "right",
+      "gap": "-70px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "Gott kann nicht\nwie ein Handy\nexistieren.",
       "position": "right",
-      "scene": "Wireframe"
+      "scene": "Whiteboard"
     },
     {
-      "posture1": "sitting",
-      "posture2": "sitting",
+      "posture1": "standing",
+      "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "30px",
+      "direction2": "right",
+      "gap": "-70px",
       "bubbleType": "speech",
       "speech1": "Hab ich doch\ngesagt!",
       "speech2": null,
       "position": "left",
-      "scene": "Wireframe"
+      "scene": "Whiteboard"
     },
     {
       "posture1": "sitting",
       "posture2": "sitting",
       "direction1": "right",
       "direction2": "left",
-      "gap": "30px",
+      "gap": "0px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "In der Physik\nexistiert nur,\nwas messbar ist.",
       "position": "right",
-      "scene": "Wireframe"
+      "scene": "Whiteboard"
     },
     {
       "posture1": "sitting",
       "posture2": "sitting",
       "direction1": "right",
       "direction2": "left",
-      "gap": "30px",
+      "gap": "0px",
       "bubbleType": "speech",
       "speech1": "Genau!",
       "speech2": null,
       "position": "left",
-      "scene": "Wireframe"
+      "scene": "Whiteboard"
     },
     {
       "posture1": "sitting",
       "posture2": "sitting",
       "direction1": "right",
       "direction2": "left",
-      "gap": "30px",
+      "gap": "0px",
       "bubbleType": "speech",
       "speech1": "Gott ist nicht messbar.",
       "speech2": null,
       "position": "right",
-      "scene": "Wireframe"
+      "scene": "Whiteboard"
     },
     {
-      "posture1": "standing",
-      "posture2": "standing",
+      "posture1": "sitting",
+      "posture2": "sitting",
       "direction1": "right",
       "direction2": "left",
-      "gap": "-40px",
+      "gap": "0px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "... und Liebe, Trauer, Sinn...\nsind nicht messbar.",
       "position": "right",
-      "scene": "Plants"
+      "scene": "Whiteboard"
     },
     {
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "-40px",
+      "direction2": "right",
+      "gap": "0px",
       "bubbleType": "thought",
-      "speech1": "Stimmt...",
+      "speech1": "Ist das wirklich so ??",
       "speech2": null,
       "position": "left",
-      "scene": "Plants"
+      "scene": "Whiteboard"
     },
     {
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "0px",
+      "direction2": "right",
+      "gap": "-90px",
       "bubbleType": "speech",
       "speech1": "Ist Trauer und Liebe nicht auch wissenschaftlich?",
       "speech2": null,
       "position": "left",
-      "scene": "Home"
+      "scene": "Plants"
     },
     {
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "0px",
+      "direction2": "right",
+      "gap": "-84px",
       "bubbleType": "speech",
       "speech1": "...einfach durch Evolution und Biologie vorgegeben?",
       "speech2": null,
       "position": "left",
-      "scene": "Home"
+      "scene": "Plants"
     },
     {
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
       "direction2": "left",
-      "gap": "0px",
+      "gap": "-78px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "Klingt das nicht\ntraurig?",
       "position": "right",
-      "scene": "Home"
-    },
-    {
-      "posture1": "sitting",
-      "posture2": "sitting",
-      "direction1": "right",
-      "direction2": "left",
-      "gap": "40px",
-      "bubbleType": "speech",
-      "speech1": null,
-      "speech2": "Physik ist\nethikfrei.\nKein Gut, kein Böse.",
-      "position": "right",
-      "scene": "Whiteboard"
-    },
-    {
-      "posture1": "sitting",
-      "posture2": "sitting",
-      "direction1": "right",
-      "direction2": "left",
-      "gap": "40px",
-      "bubbleType": "thought",
-      "speech1": "Hm...",
-      "speech2": null,
-      "position": "left",
-      "scene": "Whiteboard"
-    },
-    {
-      "posture1": "sitting",
-      "posture2": "sitting",
-      "direction1": "right",
-      "direction2": "left",
-      "gap": "40px",
-      "bubbleType": "speech",
-      "speech1": null,
-      "speech2": "Der Sinn des Lebens\nsteckt nicht in\nFormeln.",
-      "position": "right",
-      "scene": "Wireframe"
-    },
-    {
-      "posture1": "sitting",
-      "posture2": "sitting",
-      "direction1": "right",
-      "direction2": "left",
-      "gap": "40px",
-      "bubbleType": "speech",
-      "speech1": "Das stimmt...",
-      "speech2": null,
-      "position": "left",
-      "scene": "Wireframe"
+      "scene": "Plants"
     },
     {
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "-20px",
+      "direction2": "right",
+      "gap": "-72px",
+      "bubbleType": "speech",
+      "speech1": null,
+      "speech2": "Physik ist\nethikfrei.\nKein Gut, kein Böse.",
+      "position": "right",
+      "scene": "Plants"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "right",
+      "gap": "-66px",
+      "bubbleType": "thought",
+      "speech1": "Hm...",
+      "speech2": null,
+      "position": "left",
+      "scene": "Plants"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "right",
+      "gap": "-60px",
+      "bubbleType": "speech",
+      "speech1": null,
+      "speech2": "Der Sinn des Lebens\nsteckt nicht in\nFormeln.",
+      "position": "right",
+      "scene": "Plants"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "right",
+      "gap": "-54px",
+      "bubbleType": "speech",
+      "speech1": "Das stimmt...",
+      "speech2": null,
+      "position": "left",
+      "scene": "Plants"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "right",
+      "gap": "-48px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "Wissenschaft kann\nkeinen persönlichen\nGlauben ersetzen.",
@@ -264,8 +264,8 @@
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "-20px",
+      "direction2": "right",
+      "gap": "-42px",
       "bubbleType": "thought",
       "speech1": "Interessant...",
       "speech2": null,
@@ -276,8 +276,8 @@
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "-60px",
+      "direction2": "right",
+      "gap": "-36px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "Glaube und\nWissenschaft sind\nkein Widerspruch.",
@@ -288,8 +288,8 @@
       "posture1": "standing",
       "posture2": "standing",
       "direction1": "right",
-      "direction2": "left",
-      "gap": "-60px",
+      "direction2": "right",
+      "gap": "-30px",
       "bubbleType": "speech",
       "speech1": "Wie meinst\ndu das?",
       "speech2": null,
@@ -306,7 +306,7 @@
       "speech1": null,
       "speech2": "Vielleicht ist Gott\ndie Gewissheit:\nMein Leben hat Sinn.",
       "position": "right",
-      "scene": "Whiteboard"
+      "scene": "Home"
     },
     {
       "posture1": "sitting",
@@ -318,14 +318,14 @@
       "speech1": "Hm...",
       "speech2": null,
       "position": "left",
-      "scene": "Whiteboard"
+      "scene": "Home"
     },
     {
-      "posture1": "standing",
-      "posture2": "standing",
+      "posture1": "sitting",
+      "posture2": "sitting",
       "direction1": "right",
-      "direction2": "right",
-      "gap": "-80px",
+      "direction2": "left",
+      "gap": "30px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "Die Gewissheit:\nIch bin gewollt\nund geliebt.",
@@ -333,11 +333,11 @@
       "scene": "Home"
     },
     {
-      "posture1": "standing",
-      "posture2": "standing",
+      "posture1": "sitting",
+      "posture2": "sitting",
       "direction1": "right",
       "direction2": "left",
-      "gap": "0px",
+      "gap": "30px",
       "bubbleType": "speech",
       "speech1": "Aber woher diese\nGewissheit?",
       "speech2": null,
@@ -345,11 +345,11 @@
       "scene": "Home"
     },
     {
-      "posture1": "standing",
-      "posture2": "standing",
+      "posture1": "sitting",
+      "posture2": "sitting",
       "direction1": "right",
       "direction2": "left",
-      "gap": "0px",
+      "gap": "30px",
       "bubbleType": "speech",
       "speech1": null,
       "speech2": "Physik ist Wissen.\nGott ist Glaube.",
@@ -357,16 +357,16 @@
       "scene": "Home"
     },
     {
-      "posture1": "standing",
-      "posture2": "standing",
+      "posture1": "sitting",
+      "posture2": "sitting",
       "direction1": "right",
       "direction2": "left",
-      "gap": "-40px",
+      "gap": "30px",
       "bubbleType": "thought",
       "speech1": "Vielleicht brauchen\nwir beides...",
       "speech2": null,
       "position": "left",
-      "scene": "Plants"
+      "scene": "Home"
     }
   ]
 }
