@@ -27,15 +27,17 @@ git push -u origin main
 
 ### 2. GitHub Pages aktivieren (WICHTIG!)
 
-**Du MUSST GitHub Pages manuell aktivieren, bevor der Workflow funktioniert:**
+**KRITISCH: Du MUSST diese Schritte GENAU befolgen:**
 
-1. Gehe zu deinem Repository auf GitHub
-2. Klicke auf **Settings** (Einstellungen)
-3. Klicke im linken Menü auf **Pages**
-4. Unter **Build and deployment** → **Source** wähle **GitHub Actions**
-5. Die Seite speichert automatisch
+1. Gehe zu: `https://github.com/DEIN-USERNAME/physicist/settings/pages`
+2. Unter **"Build and deployment"**:
+   - **Source**: Wähle **"GitHub Actions"** (NICHT "Deploy from a branch")
+3. **WARTE** bis die Seite "GitHub Pages is now enabled" anzeigt
+4. Die URL wird angezeigt: `https://DEIN-USERNAME.github.io/physicist/`
 
-**Ohne diesen Schritt wird der Workflow mit "Resource not accessible" Fehler fehlschlagen!**
+**Erst NACHDEM du die Bestätigung siehst, kannst du pushen!**
+
+Wenn du "Deploy from a branch" siehst, hast du die falsche Option gewählt.
 
 ### 3. Deployment starten
 
