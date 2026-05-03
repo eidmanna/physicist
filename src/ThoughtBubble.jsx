@@ -70,7 +70,7 @@ const ThoughtBubble = ({ children, position = 'left' }) => {
         ref={textRef}
         style={{
           position: 'absolute',
-          top: '-10%',
+          top: '-15%',
           left: 0,
           width: '100%',
           height: '100%',
