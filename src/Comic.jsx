@@ -1,6 +1,7 @@
 import './Comic.css';
 import Human from './humaaans/Human';
 import Scene from './humaaans/Scene';
+import ThoughtBubble from './ThoughtBubble';
 
 // Zwei konsistente Charaktere mit festen Eigenschaften
 // Diese Eigenschaften bleiben in allen Frames gleich
@@ -122,14 +123,14 @@ export default function Comic() {
 
               <div className={`speech-container ${frame.position}`}>
                 {frame.speech1 && (
-                  <div className="speech-bubble">
-                    <span>{frame.speech1}</span>
-                  </div>
+                  <ThoughtBubble position={frame.position}>
+                    {frame.speech1}
+                  </ThoughtBubble>
                 )}
                 {frame.speech2 && (
-                  <div className="speech-bubble">
-                    <span>{frame.speech2}</span>
-                  </div>
+                  <ThoughtBubble position={frame.position}>
+                    {frame.speech2}
+                  </ThoughtBubble>
                 )}
               </div>
 
