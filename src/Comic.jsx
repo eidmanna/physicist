@@ -4,24 +4,9 @@ import Scene from './humaaans/Scene';
 import ThoughtBubble from './ThoughtBubble';
 import SpeechBubble from './SpeechBubble';
 
-// Zwei konsistente Charaktere mit festen Eigenschaften
-// Diese Eigenschaften bleiben in allen Frames gleich
-const CHARACTER_1 = {
-  head: 'Short',
-  torso: 'Hoodie',
-  bottom: 'BaggyPants', // Bleibt immer gleich
-  bottomColor1: '#69A1AC', // Türkis/Blau (standing Pant Farbe) - bleibt konstant
-  bottomColor2: '#89C5CC', // Hellblau/Cyan (standing Pant Farbe) - bleibt konstant
-  
-};
-
-const CHARACTER_2 = {
-  head: 'Pony',
-  torso: 'LongSleeve',
-  bottom: 'SweatPants', // Bleibt immer gleich
-  bottomColor1: '#191847', // Dunkelblau - bleibt konstant
-  bottomColor2: '#2F3676', // Mittelblau - bleibt konstant
-};
+// Dynamischer Import der Story basierend auf Umgebungsvariable
+const storyPath = import.meta.env.VITE_STORY_PATH || 'stories/consciousness-mystery.json';
+const storyData = await import(/* @vite-ignore */ `./${storyPath}`).then(module => module.default);
 
 const HumaanCharacter = ({ character, posture = 'standing', direction = 'right', size = 200, className = '' }) => {
   return (
@@ -41,80 +26,13 @@ const HumaanCharacter = ({ character, posture = 'standing', direction = 'right',
 };
 
 export default function Comic() {
-  const frames = [
-    {
-      posture1: 'standing',
-      posture2: 'standing',
-      direction1: 'right',
-      direction2: 'left',
-      gap: '-20px',
-      bubbleType: 'speech', // 'speech' oder 'thought'
-      speech1: 'Was ist\nBewusstsein?',
-      speech2: null,
-      position: 'left',
-      scene: 'Home',
-    },
-    {
-      posture1: 'standing',
-      posture2: 'standing',
-      direction1: 'right',
-      direction2: 'left',
-      gap: '0px',
-      bubbleType: 'thought',
-      speech1: null,
-      speech2: 'Eine interessante\nFrage!',
-      position: 'right',
-      scene: 'Home',
-    },
-    {
-      posture1: 'sitting',
-      posture2: 'sitting',
-      direction1: 'right',
-      direction2: 'left',
-      gap: '20px',
-      speech1: 'Ist es die\nFähigkeit zu\ndenken?',
-      speech2: null,
-      position: 'left',
-      scene: 'Whiteboard',
-    },
-    {
-      posture1: 'sitting',
-      posture2: 'sitting',
-      direction1: 'right',
-      direction2: 'left',
-      gap: '50px',
-      speech1: null,
-      speech2: 'Vielleicht...\naber was ist\nDenken wirklich?',
-      position: 'right',
-      scene: 'Wireframe',
-    },
-    {
-      posture1: 'standing',
-      posture2: 'standing',
-      direction1: 'right',
-      direction2: 'left',
-      gap: '-60px',
-      speech1: 'Ein\nMysterium!',
-      speech2: null,
-      position: 'left',
-      scene: 'Plants',
-    },
-    {
-      posture1: 'standing',
-      posture2: 'standing',
-      direction1: 'right',
-      direction2: 'right',
-      gap: '-90px',
-      speech1: null,
-      speech2: 'Ein wunderschönes\nMysterium!',
-      position: 'right',
-      scene: 'Plants',
-    },
-  ];
+  const { title, author, attribution, attributionLink, characters, frames } = storyData;
+  const CHARACTER_1 = characters.character1;
+  const CHARACTER_2 = characters.character2;
 
   return (
     <div className="comic-container">
-      <h1 className="comic-title">Das Bewusstsein-Mysterium</h1>
+      <h1 className="comic-title">{title}</h1>
       <div className="comic-grid">
         {frames.map((frame, index) => (
           <div key={index} className={`comic-frame frame-${index + 1}`}>
@@ -176,10 +94,10 @@ export default function Comic() {
       </div>
       <div className="author-section">
         <p>
-          Ein philosophisches Comic-Abenteuer mit <span className="heart">♥</span> erstellt
+          {author}
         </p>
         <p style={{ fontSize: '0.9rem', opacity: 0.7, marginTop: '0.5rem' }}>
-          Charaktere von <a href="https://github.com/pablostanley/humaaans" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'underline' }}>Humaaans</a> (CC BY 4.0)
+          {attribution} - <a href={attributionLink} target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'underline' }}>Humaaans</a>
         </p>
       </div>
     </div>

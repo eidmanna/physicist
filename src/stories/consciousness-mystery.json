@@ -1,0 +1,92 @@
+{
+  "title": "Das Bewusstsein-Mysterium",
+  "author": "Ein philosophisches Comic-Abenteuer mit ♥ erstellt",
+  "attribution": "Charaktere von Humaaans (CC BY 4.0)",
+  "attributionLink": "https://github.com/pablostanley/humaaans",
+  "characters": {
+    "character1": {
+      "head": "Short",
+      "torso": "Hoodie",
+      "bottom": "BaggyPants",
+      "bottomColor1": "#69A1AC",
+      "bottomColor2": "#89C5CC"
+    },
+    "character2": {
+      "head": "Pony",
+      "torso": "LongSleeve",
+      "bottom": "SweatPants",
+      "bottomColor1": "#191847",
+      "bottomColor2": "#2F3676"
+    }
+  },
+  "frames": [
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "-20px",
+      "bubbleType": "speech",
+      "speech1": "Was ist\nBewusstsein?",
+      "speech2": null,
+      "position": "left",
+      "scene": "Home"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "0px",
+      "bubbleType": "thought",
+      "speech1": null,
+      "speech2": "Eine interessante\nFrage!",
+      "position": "right",
+      "scene": "Home"
+    },
+    {
+      "posture1": "sitting",
+      "posture2": "sitting",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "20px",
+      "speech1": "Ist es die\nFähigkeit zu\ndenken?",
+      "speech2": null,
+      "position": "left",
+      "scene": "Whiteboard"
+    },
+    {
+      "posture1": "sitting",
+      "posture2": "sitting",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "50px",
+      "speech1": null,
+      "speech2": "Vielleicht...\naber was ist\nDenken wirklich?",
+      "position": "right",
+      "scene": "Wireframe"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "-60px",
+      "speech1": "Ein\nMysterium!",
+      "speech2": null,
+      "position": "left",
+      "scene": "Plants"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "right",
+      "gap": "-90px",
+      "speech1": null,
+      "speech2": "Ein wunderschönes\nMysterium!",
+      "position": "right",
+      "scene": "Plants"
+    }
+  ]
+}
