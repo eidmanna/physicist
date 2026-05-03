@@ -7,17 +7,18 @@ import Scene from './humaaans/Scene';
 const CHARACTER_1 = {
   head: 'Short',
   torso: 'Hoodie',
-  bottom: 'SkinnyJeans', // Bleibt immer gleich
-  bottomColor1: '#191847', // Dunkelblau - bleibt konstant
-  bottomColor2: '#2F3676', // Mittelblau - bleibt konstant
-};
-
-const CHARACTER_2 = {
-  head: 'Curly',
-  torso: 'LongSleeve',
   bottom: 'BaggyPants', // Bleibt immer gleich
   bottomColor1: '#69A1AC', // Türkis/Blau (standing Pant Farbe) - bleibt konstant
   bottomColor2: '#89C5CC', // Hellblau/Cyan (standing Pant Farbe) - bleibt konstant
+  
+};
+
+const CHARACTER_2 = {
+  head: 'Pony',
+  torso: 'LongSleeve',
+  bottom: 'SweatPants', // Bleibt immer gleich
+  bottomColor1: '#191847', // Dunkelblau - bleibt konstant
+  bottomColor2: '#2F3676', // Mittelblau - bleibt konstant
 };
 
 const HumaanCharacter = ({ character, posture = 'standing', direction = 'right', size = 200, className = '' }) => {
@@ -42,6 +43,9 @@ export default function Comic() {
     {
       posture1: 'standing',
       posture2: 'standing',
+      direction1: 'right',
+      direction2: 'left',
+      gap: '-20px', // Negative Werte erlauben Überlappung
       speech1: 'Was ist\nBewusstsein?',
       speech2: null,
       position: 'left',
@@ -50,6 +54,9 @@ export default function Comic() {
     {
       posture1: 'standing',
       posture2: 'standing',
+      direction1: 'right',
+      direction2: 'left',
+      gap: '0px',
       speech1: null,
       speech2: 'Eine interessante\nFrage!',
       position: 'right',
@@ -58,6 +65,9 @@ export default function Comic() {
     {
       posture1: 'sitting',
       posture2: 'sitting',
+      direction1: 'right',
+      direction2: 'left',
+      gap: '20px',
       speech1: 'Ist es die\nFähigkeit zu\ndenken?',
       speech2: null,
       position: 'left',
@@ -66,6 +76,9 @@ export default function Comic() {
     {
       posture1: 'sitting',
       posture2: 'sitting',
+      direction1: 'right',
+      direction2: 'left',
+      gap: '50px',
       speech1: null,
       speech2: 'Vielleicht...\naber was ist\nDenken wirklich?',
       position: 'right',
@@ -74,6 +87,9 @@ export default function Comic() {
     {
       posture1: 'standing',
       posture2: 'standing',
+      direction1: 'right',
+      direction2: 'left',
+      gap: '-60px',
       speech1: 'Ein\nMysterium!',
       speech2: null,
       position: 'left',
@@ -82,6 +98,9 @@ export default function Comic() {
     {
       posture1: 'standing',
       posture2: 'standing',
+      direction1: 'right',
+      direction2: 'right',
+      gap: '-90px',
       speech1: null,
       speech2: 'Ein wunderschönes\nMysterium!',
       position: 'right',
@@ -114,23 +133,23 @@ export default function Comic() {
                 )}
               </div>
 
-              <div className="characters-container">
-                {/* Charakter 1 - schaut nach rechts zu Charakter 2 */}
+              <div className="characters-container" style={{ gap: frame.gap }}>
+                {/* Charakter 1 */}
                 <div className="character character-1">
                   <HumaanCharacter
                     character={CHARACTER_1}
                     posture={frame.posture1}
-                    direction="right"
-                    size={220}
+                    direction={frame.direction1}
+                    size={150}
                   />
                 </div>
-                {/* Charakter 2 - schaut nach links zu Charakter 1 */}
-                <div className="character character-2">
+                {/* Charakter 2 */}
+                <div className="character character-2" style={{ marginLeft: frame.gap }}>
                   <HumaanCharacter
                     character={CHARACTER_2}
                     posture={frame.posture2}
-                    direction="left"
-                    size={300}
+                    direction={frame.direction2}
+                    size={140}
                   />
                 </div>
               </div>

@@ -155,7 +155,7 @@
 /* Characters Container */
 .characters-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
   z-index: 2;
   align-items: flex-end;
@@ -165,14 +165,14 @@
 }
 
 .character {
-  flex: 1;
+  flex: 0 0 auto;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
 .character svg {
-  width: 100%;
+  width: auto;
   height: auto;
   max-width: 600px;
   filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
