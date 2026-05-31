@@ -1,6 +1,12 @@
 {
-  "title": "Gott und Physik - Ein Dialog",
-  "author": "Ein philosophischer Dialog über Glaube und Wissenschaft",
+  "title": {
+    "de": "Gott und Physik - Ein Dialog",
+    "en": "God and Physics - A Dialogue"
+  },
+  "author": {
+    "de": "Ein Dialog über Glaube und Wissenschaft",
+    "en": "A dialogue about faith and science"
+  },
   "attribution": "Charaktere von Humaaans (CC BY 4.0)",
   "attributionLink": "https://github.com/pablostanley/humaaans",
   "characters": {
@@ -27,7 +33,10 @@
       "direction2": "right",
       "gap": "-90px",
       "bubbleType": "speech",
-      "speech1": "Die moderne Wissenschaft hat Gott überflüssig gemacht!",
+      "speech1": {
+        "de": "Wissenschaft hat Gott überflüssig gemacht!",
+        "en": "Science has made God obsolete!"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Wireframe"
@@ -40,7 +49,10 @@
       "gap": "-80px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Wirklich?",
+      "speech2": {
+        "de": "Wirklich?",
+        "en": "Really?"
+      },
       "position": "right",
       "scene": "Wireframe"
     },
@@ -51,7 +63,10 @@
       "direction2": "right",
       "gap": "-90px",
       "bubbleType": "speech",
-      "speech1": "Gott ist nur ein Märchen und existiert nicht!",
+      "speech1": {
+        "de": "Gott ist nur ein Märchen!",
+        "en": "God is just a fairy tale!"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Wireframe"
@@ -64,7 +79,10 @@
       "gap": "-80px",
       "bubbleType": "thought",
       "speech1": null,
-      "speech2": "Das könnte ein spannendes Gespräch werden :-)",
+      "speech2": {
+        "de": "Das könnte ein spannendes Gespräch werden",
+        "en": "This could be an exciting conversation"
+      },
       "position": "right",
       "scene": "Wireframe"
     },
@@ -76,7 +94,10 @@
       "gap": "-70px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Was meinst du\nmit 'existieren'?",
+      "speech2": {
+        "de": "Was meinst du\nmit 'existieren'?",
+        "en": "What do you mean\nby 'exist'?"
+      },
       "position": "right",
       "scene": "Wireframe"
     },
@@ -87,7 +108,10 @@
       "direction2": "right",
       "gap": "-60px",
       "bubbleType": "thought",
-      "speech1": "Was für eine\nseltsame Frage...",
+      "speech1": {
+        "de": "Was für eine\nseltsame Frage...",
+        "en": "What a\nstrange question..."
+      },
       "speech2": null,
       "position": "left",
       "scene": "Whiteboard"
@@ -100,7 +124,10 @@
       "gap": "-70px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Gott existiert sicher nicht so wie z.B. dein Handy.",
+      "speech2": {
+        "de": "Gott existiert nicht im physischen Sinne.",
+        "en": "God doesn't exist in the physical sense."
+      },
       "position": "right",
       "scene": "Whiteboard"
     },
@@ -111,7 +138,10 @@
       "direction2": "right",
       "gap": "-70px",
       "bubbleType": "speech",
-      "speech1": "Hab ich doch gesagt!\nGott existiert nicht!",
+      "speech1": {
+        "de": "Hab ich doch gesagt!\nGott existiert nicht!",
+        "en": "That's what I said!\nGod doesn't exist!"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Whiteboard"
@@ -124,7 +154,10 @@
       "gap": "0px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "In der Physik\nexistiert nur,\nwas messbar ist.",
+      "speech2": {
+        "de": "In der Physik\nexistieren nur\nmessbare Dinge.",
+        "en": "In physics,\nonly measurable things\nexist."
+      },
       "position": "right",
       "scene": "Whiteboard"
     },
@@ -135,7 +168,10 @@
       "direction2": "left",
       "gap": "0px",
       "bubbleType": "speech",
-      "speech1": "Genau!",
+      "speech1": {
+        "de": "Genau!",
+        "en": "Exactly!"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Whiteboard"
@@ -147,7 +183,10 @@
       "direction2": "left",
       "gap": "0px",
       "bubbleType": "speech",
-      "speech1": "Gott ist aber nicht messbar.",
+      "speech1": {
+        "de": "Gott ist aber nicht messbar.",
+        "en": "But God is not measurable."
+      },
       "speech2": null,
       "position": "right",
       "scene": "Whiteboard"
@@ -160,7 +199,10 @@
       "gap": "0px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "... und Liebe, Trauer, Sinn...\nsind auch nicht messbar.",
+      "speech2": {
+        "de": "... und Liebe, Trauer, Sinn...\nsind auch nicht messbar.",
+        "en": "... and love, grief, meaning...\naren't measurable either."
+      },
       "position": "right",
       "scene": "Whiteboard"
     },
@@ -171,7 +213,10 @@
       "direction2": "right",
       "gap": "0px",
       "bubbleType": "thought",
-      "speech1": "Ist das wirklich so ??",
+      "speech1": {
+        "de": "Ist das wirklich so ??",
+        "en": "Is that really true ??"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Whiteboard"
@@ -183,7 +228,10 @@
       "direction2": "right",
       "gap": "-90px",
       "bubbleType": "speech",
-      "speech1": "Ist Trauer und Liebe nicht auch wissenschaftlich?",
+      "speech1": {
+        "de": "Aber sind Liebe und Trauer nicht auch wissenschaftlich?",
+        "en": "But aren't love and grief scientific too?"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Plants"
@@ -195,7 +243,10 @@
       "direction2": "right",
       "gap": "-84px",
       "bubbleType": "speech",
-      "speech1": "...einfach durch Evolution und Biologie vorgegeben?",
+      "speech1": {
+        "de": "...einfach Evolution und Biologie am Werk?",
+        "en": "...just evolution and biology at work?"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Plants"
@@ -208,7 +259,10 @@
       "gap": "-78px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Klingt das nicht\ntraurig?",
+      "speech2": {
+        "de": "Fühlt sich das nicht...\nleer an?",
+        "en": "Doesn't that feel...\nempty?"
+      },
       "position": "right",
       "scene": "Plants"
     },
@@ -220,7 +274,10 @@
       "gap": "-72px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Physik ist\nethikfrei.\nKein Gut, kein Böse.",
+      "speech2": {
+        "de": "Physik hat keine Ethik.\nKein Gut.\nKein Böse.",
+        "en": "Physics has no ethics.\nNo good.\nNo evil."
+      },
       "position": "right",
       "scene": "Plants"
     },
@@ -231,7 +288,10 @@
       "direction2": "right",
       "gap": "-66px",
       "bubbleType": "thought",
-      "speech1": "Hm...",
+      "speech1": {
+        "de": "Hm...",
+        "en": "Hmm..."
+      },
       "speech2": null,
       "position": "left",
       "scene": "Plants"
@@ -244,7 +304,10 @@
       "gap": "-60px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Der Sinn des Lebens\nsteckt nicht in\nFormeln.",
+      "speech2": {
+        "de": "Der Sinn des Lebens\nist nicht in Formeln\nversteckt.",
+        "en": "Life's meaning\nisn't hidden in\nformulas."
+      },
       "position": "right",
       "scene": "Plants"
     },
@@ -255,7 +318,10 @@
       "direction2": "right",
       "gap": "-54px",
       "bubbleType": "speech",
-      "speech1": "Das stimmt...",
+      "speech1": {
+        "de": "Das stimmt...",
+        "en": "That's true..."
+      },
       "speech2": null,
       "position": "left",
       "scene": "Plants"
@@ -268,7 +334,10 @@
       "gap": "-48px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Wissenschaft kann\nkeinen persönlichen\nGlauben ersetzen.",
+      "speech2": {
+        "de": "Wissenschaft kann\nGlauben nicht\nersetzen.",
+        "en": "Science can't\nreplace\nfaith."
+      },
       "position": "right",
       "scene": "Plants"
     },
@@ -279,7 +348,10 @@
       "direction2": "right",
       "gap": "-42px",
       "bubbleType": "thought",
-      "speech1": "Interessant...",
+      "speech1": {
+        "de": "Interessant...",
+        "en": "Interesting..."
+      },
       "speech2": null,
       "position": "left",
       "scene": "Plants"
@@ -292,7 +364,10 @@
       "gap": "-36px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Glaube und\nWissenschaft sind\nkein Widerspruch.",
+      "speech2": {
+        "de": "Glaube und Wissenschaft\nwidersprechen sich\nnicht.",
+        "en": "Faith and science\ndon't contradict\neach other."
+      },
       "position": "right",
       "scene": "Home"
     },
@@ -303,7 +378,10 @@
       "direction2": "left",
       "gap": "-30px",
       "bubbleType": "speech",
-      "speech1": "Wie meinst\ndu das?",
+      "speech1": {
+        "de": "Wie meinst\ndu das?",
+        "en": "What do you\nmean?"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Home"
@@ -316,7 +394,10 @@
       "gap": "10px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Vielleicht ist Gott\ndie Gewissheit:\nMein Leben hat Sinn.",
+      "speech2": {
+        "de": "Vielleicht ist Gott\ndiese Gewissheit:\nMein Leben hat Sinn.",
+        "en": "Maybe God is\nthis certainty:\nMy life has meaning."
+      },
       "position": "right",
       "scene": "Home"
     },
@@ -327,7 +408,10 @@
       "direction2": "left",
       "gap": "-10px",
       "bubbleType": "thought",
-      "speech1": "Hm...",
+      "speech1": {
+        "de": "Hm...",
+        "en": "Hmm..."
+      },
       "speech2": null,
       "position": "left",
       "scene": "Home"
@@ -340,7 +424,10 @@
       "gap": "-20px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Die Gewissheit:\nIch bin gewollt\nund geliebt.",
+      "speech2": {
+        "de": "Die Gewissheit:\nIch bin gewollt.\nIch bin geliebt.",
+        "en": "The certainty:\nI'm wanted.\nI'm loved."
+      },
       "position": "right",
       "scene": "Home"
     },
@@ -351,7 +438,10 @@
       "direction2": "left",
       "gap": "-30px",
       "bubbleType": "speech",
-      "speech1": "Aber woher soll diese\nGewissheit kommen?",
+      "speech1": {
+        "de": "Aber woher kommt\ndiese Gewissheit?",
+        "en": "But where does this\ncertainty come from?"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Home"
@@ -364,7 +454,10 @@
       "gap": "-40px",
       "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Physik ist Wissen.\nGott ist Glaube.",
+      "speech2": {
+        "de": "Physik ist Wissen.\nGott ist Glaube.",
+        "en": "Physics is knowledge.\nGod is faith."
+      },
       "position": "right",
       "scene": "Home"
     },
@@ -375,7 +468,10 @@
       "direction2": "left",
       "gap": "-50px",
       "bubbleType": "thought",
-      "speech1": "Vielleicht brauchen\nwir beides...",
+      "speech1": {
+        "de": "Vielleicht brauchen wir\nbeides...",
+        "en": "Maybe we need\nboth..."
+      },
       "speech2": null,
       "position": "left",
       "scene": "Home"

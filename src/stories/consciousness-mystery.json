@@ -1,6 +1,12 @@
 {
-  "title": "Das Bewusstsein-Mysterium",
-  "author": "Ein philosophisches Comic-Abenteuer mit ♥ erstellt",
+  "title": {
+    "de": "Das Bewusstsein-Mysterium",
+    "en": "The Consciousness Mystery"
+  },
+  "author": {
+    "de": "Ein philosophisches Comic-Abenteuer mit ♥ erstellt",
+    "en": "A philosophical comic adventure created with ♥"
+  },
   "attribution": "Charaktere von Humaaans (CC BY 4.0)",
   "attributionLink": "https://github.com/pablostanley/humaaans",
   "characters": {
@@ -27,7 +33,10 @@
       "direction2": "left",
       "gap": "-20px",
       "bubbleType": "speech",
-      "speech1": "Was ist\nBewusstsein?",
+      "speech1": {
+        "de": "Was ist\nBewusstsein?",
+        "en": "What is\nconsciousness?"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Home"
@@ -40,7 +49,10 @@
       "gap": "0px",
       "bubbleType": "thought",
       "speech1": null,
-      "speech2": "Eine interessante\nFrage!",
+      "speech2": {
+        "de": "Eine interessante\nFrage!",
+        "en": "An interesting\nquestion!"
+      },
       "position": "right",
       "scene": "Home"
     },
@@ -50,7 +62,11 @@
       "direction1": "right",
       "direction2": "left",
       "gap": "20px",
-      "speech1": "Ist es die\nFähigkeit zu\ndenken?",
+      "bubbleType": "speech",
+      "speech1": {
+        "de": "Ist es die\nFähigkeit zu\ndenken?",
+        "en": "Is it the\nability to\nthink?"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Whiteboard"
@@ -61,8 +77,12 @@
       "direction1": "right",
       "direction2": "left",
       "gap": "50px",
+      "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Vielleicht...\naber was ist\nDenken wirklich?",
+      "speech2": {
+        "de": "Vielleicht...\naber was ist\nDenken wirklich?",
+        "en": "Perhaps...\nbut what is\nthinking, really?"
+      },
       "position": "right",
       "scene": "Wireframe"
     },
@@ -72,7 +92,11 @@
       "direction1": "right",
       "direction2": "left",
       "gap": "-60px",
-      "speech1": "Ein\nMysterium!",
+      "bubbleType": "speech",
+      "speech1": {
+        "de": "Ein\nMysterium!",
+        "en": "A\nmystery!"
+      },
       "speech2": null,
       "position": "left",
       "scene": "Plants"
@@ -83,10 +107,74 @@
       "direction1": "right",
       "direction2": "right",
       "gap": "-90px",
+      "bubbleType": "speech",
       "speech1": null,
-      "speech2": "Ein wunderschönes\nMysterium!",
+      "speech2": {
+        "de": "Ein wunderschönes\nMysterium!",
+        "en": "A beautiful\nmystery!"
+      },
       "position": "right",
       "scene": "Plants"
+    },
+    {
+      "posture1": "sitting",
+      "posture2": "sitting",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "30px",
+      "bubbleType": "speech",
+      "speech1": {
+        "de": "Können Maschinen\nbewusst werden?",
+        "en": "Can machines\nbecome conscious?"
+      },
+      "speech2": null,
+      "position": "left",
+      "scene": "Wireframe"
+    },
+    {
+      "posture1": "sitting",
+      "posture2": "sitting",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "40px",
+      "bubbleType": "thought",
+      "speech1": null,
+      "speech2": {
+        "de": "Wenn wir nicht wissen,\nwas Bewusstsein ist...\nwie können wir das\nbeantworten?",
+        "en": "If we don't know\nwhat consciousness is...\nhow can we\nanswer that?"
+      },
+      "position": "right",
+      "scene": "Wireframe"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "-40px",
+      "bubbleType": "speech",
+      "speech1": {
+        "de": "Vielleicht ist das\ndie falsche Frage...",
+        "en": "Maybe that's\nthe wrong question..."
+      },
+      "speech2": null,
+      "position": "left",
+      "scene": "Home"
+    },
+    {
+      "posture1": "standing",
+      "posture2": "standing",
+      "direction1": "right",
+      "direction2": "left",
+      "gap": "-50px",
+      "bubbleType": "speech",
+      "speech1": null,
+      "speech2": {
+        "de": "Die richtige Frage ist:\nWas bedeutet es,\nlebendig zu sein?",
+        "en": "The right question is:\nWhat does it mean\nto be alive?"
+      },
+      "position": "right",
+      "scene": "Home"
     }
   ]
 }

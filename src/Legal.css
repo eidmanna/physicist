@@ -1,0 +1,153 @@
+/* Legal Pages Styling */
+.legal-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #E9D5DA 0%, #B8A9C9 25%, #C5DEDD 50%, #A8D5E2 75%, #F9A8D4 100%);
+  padding: 3rem 2rem;
+  font-family: 'Space Mono', monospace;
+}
+
+.legal-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.legal-content h1 {
+  color: #667eea;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.legal-content h2 {
+  color: #764ba2;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #E9D5DA;
+  padding-bottom: 0.5rem;
+}
+
+.legal-content h3 {
+  color: #667eea;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.legal-content section {
+  margin-bottom: 2rem;
+}
+
+.legal-content p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.legal-content ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.legal-content li {
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.legal-content a {
+  color: #667eea;
+  text-decoration: none;
+  border-bottom: 1px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+.legal-content a:hover {
+  color: #764ba2;
+  border-bottom-color: #764ba2;
+}
+
+.legal-update {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #E9D5DA;
+  text-align: center;
+  color: #666;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-decoration: none;
+  border-radius: 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.back-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .legal-content {
+    padding: 2rem;
+  }
+
+  .legal-content h1 {
+    font-size: 2rem;
+  }
+
+  .legal-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .legal-content h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .legal-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .legal-content {
+    padding: 1.5rem;
+  }
+
+  .legal-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .legal-content h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .legal-container {
+    background: white;
+    padding: 1rem;
+  }
+
+  .back-button {
+    display: none;
+  }
+
+  .legal-content {
+    box-shadow: none;
+  }
+}
+
+/* Made with Bob */
